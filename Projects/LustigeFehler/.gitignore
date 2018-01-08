@@ -1,0 +1,7 @@
+# Directories #
+.vs/
+obj/
+
+# Files #
+*.suo
+*.user
