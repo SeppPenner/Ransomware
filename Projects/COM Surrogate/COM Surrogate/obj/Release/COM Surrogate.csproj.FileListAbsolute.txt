@@ -1,0 +1,10 @@
+C:\Users\tim\Documents\Visual Studio 2015\Projects\COM Surrogate\COM Surrogate\bin\Release\COM_Surrogate.exe.config
+C:\Users\tim\Documents\Visual Studio 2015\Projects\COM Surrogate\COM Surrogate\bin\Release\COM_Surrogate.exe
+C:\Users\tim\Documents\Visual Studio 2015\Projects\COM Surrogate\COM Surrogate\bin\Release\COM_Surrogate.pdb
+C:\Users\tim\Documents\Visual Studio 2015\Projects\COM Surrogate\COM Surrogate\bin\Release\msvpc.dll
+C:\Users\tim\Documents\Visual Studio 2015\Projects\COM Surrogate\COM Surrogate\obj\Release\COM Surrogate.csprojResolveAssemblyReference.cache
+C:\Users\tim\Documents\Visual Studio 2015\Projects\COM Surrogate\COM Surrogate\obj\Release\Main.resources
+C:\Users\tim\Documents\Visual Studio 2015\Projects\COM Surrogate\COM Surrogate\obj\Release\Properties.Resources.resources
+C:\Users\tim\Documents\Visual Studio 2015\Projects\COM Surrogate\COM Surrogate\obj\Release\COM Surrogate.csproj.GenerateResource.Cache
+C:\Users\tim\Documents\Visual Studio 2015\Projects\COM Surrogate\COM Surrogate\obj\Release\COM_Surrogate.exe
+C:\Users\tim\Documents\Visual Studio 2015\Projects\COM Surrogate\COM Surrogate\obj\Release\COM_Surrogate.pdb

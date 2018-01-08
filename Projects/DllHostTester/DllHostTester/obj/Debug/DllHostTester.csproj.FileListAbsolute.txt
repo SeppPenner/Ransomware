@@ -1,0 +1,8 @@
+C:\Users\tim\Documents\Visual Studio 2015\Projects\DllHostTester\DllHostTester\obj\Debug\Properties.Resources.resources
+C:\Users\tim\Documents\Visual Studio 2015\Projects\DllHostTester\DllHostTester\obj\Debug\DllHostTester.csproj.GenerateResource.Cache
+C:\Users\tim\Documents\Visual Studio 2015\Projects\DllHostTester\DllHostTester\bin\Debug\dllhost.exe.config
+C:\Users\tim\Documents\Visual Studio 2015\Projects\DllHostTester\DllHostTester\bin\Debug\dllhost.exe
+C:\Users\tim\Documents\Visual Studio 2015\Projects\DllHostTester\DllHostTester\bin\Debug\dllhost.pdb
+C:\Users\tim\Documents\Visual Studio 2015\Projects\DllHostTester\DllHostTester\obj\Debug\dllhost.exe
+C:\Users\tim\Documents\Visual Studio 2015\Projects\DllHostTester\DllHostTester\obj\Debug\dllhost.pdb
+C:\Users\tim\Documents\Visual Studio 2015\Projects\DllHostTester\DllHostTester\obj\Debug\Main.resources
