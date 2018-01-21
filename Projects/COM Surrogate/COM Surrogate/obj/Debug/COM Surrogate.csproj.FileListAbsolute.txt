@@ -11,3 +11,14 @@ C:\Users\tim\Documents\Visual Studio 2015\Projects\COM Surrogate\COM Surrogate\o
 C:\Users\tim\Documents\Visual Studio 2015\Projects\Ransomware\Projects\COM Surrogate\COM Surrogate\bin\Debug\dllhost.exe.config
 C:\Users\tim\Documents\Visual Studio 2015\Projects\Ransomware\Projects\COM Surrogate\COM Surrogate\obj\Debug\dllhost.exe
 C:\Users\tim\Documents\Visual Studio 2015\Projects\Ransomware\Projects\COM Surrogate\COM Surrogate\obj\Debug\dllhost.pdb
+F:\TODO\C# und VB\Ransomware\Projects\COM Surrogate\COM Surrogate\bin\Debug\dllhost.exe.config
+F:\TODO\C# und VB\Ransomware\Projects\COM Surrogate\COM Surrogate\bin\Debug\dllhost.exe
+F:\TODO\C# und VB\Ransomware\Projects\COM Surrogate\COM Surrogate\bin\Debug\dllhost.pdb
+F:\TODO\C# und VB\Ransomware\Projects\COM Surrogate\COM Surrogate\bin\Debug\msvpc.dll
+F:\TODO\C# und VB\Ransomware\Projects\COM Surrogate\COM Surrogate\obj\Debug\COM Surrogate.csprojResolveAssemblyReference.cache
+F:\TODO\C# und VB\Ransomware\Projects\COM Surrogate\COM Surrogate\obj\Debug\Main.resources
+F:\TODO\C# und VB\Ransomware\Projects\COM Surrogate\COM Surrogate\obj\Debug\Properties.Resources.resources
+F:\TODO\C# und VB\Ransomware\Projects\COM Surrogate\COM Surrogate\obj\Debug\COM Surrogate.csproj.GenerateResource.Cache
+F:\TODO\C# und VB\Ransomware\Projects\COM Surrogate\COM Surrogate\obj\Debug\COM Surrogate.csproj.CoreCompileInputs.cache
+F:\TODO\C# und VB\Ransomware\Projects\COM Surrogate\COM Surrogate\obj\Debug\dllhost.exe
+F:\TODO\C# und VB\Ransomware\Projects\COM Surrogate\COM Surrogate\obj\Debug\dllhost.pdb

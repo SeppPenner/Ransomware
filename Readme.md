@@ -1,6 +1,6 @@
 # Ransomware
 
-Ransomware is a project written in C# 4.6.2 and shows how ransomeware generally works. This repository should be used for educational reasons only!!
+Ransomware is a project written in C# 4.7 and shows how ransomeware generally works. This repository should be used for educational reasons only!!
 
 [![Build status](https://ci.appveyor.com/api/projects/status/m435h8vg3m6uwdv2?svg=true)](https://ci.appveyor.com/project/SeppPenner/ransomware)
 [![GitHub issues](https://img.shields.io/github/issues/SeppPenner/Ransomware.svg)](https://github.com/SeppPenner/Ransomware/issues)
