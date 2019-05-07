@@ -2,10 +2,11 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "LustigeFehler"
-#define MyAppVersion "1.0.0.0"
+#define MyAppVersion "1.0.0.1"
 #define MyAppPublisher "Hämmer Electronics"
 #define MyAppURL "www.softwareload24.de.tl"
 #define MyAppExeName "LustigeFehler.exe"
+#define MyAppPath "C:\Users\tim\Desktop\Updaten_Snyk\Ransomware\Projects\LustigeFehler"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application.
@@ -24,11 +25,11 @@ AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
 DefaultDirName={pf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
-LicenseFile=C:\Users\tim\Desktop\LustigeFehler\LustigeFehler\bin\Debug\License.txt
-InfoBeforeFile=C:\Users\tim\Desktop\LustigeFehler\LustigeFehler\bin\Debug\Readme.txt
-OutputDir=C:\Users\tim\Desktop\LustigeFehler\Setup
+LicenseFile={#MyAppPath}\LustigeFehler\bin\Debug\License.txt
+InfoBeforeFile={#MyAppPath}\LustigeFehler\bin\Debug\Readme.txt
+OutputDir={#MyAppPath}\Setup
 OutputBaseFilename=LustigeFehler-Setup
-SetupIconFile=C:\Users\tim\Desktop\LustigeFehler\LustigeFehler\Funny.ico
+SetupIconFile={#MyAppPath}\LustigeFehler\Funny.ico
 Compression=lzma
 SolidCompression=yes
 
@@ -41,10 +42,10 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 Name: "quicklaunchicon"; Description: "{cm:CreateQuickLaunchIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked; OnlyBelowVersion: 0,6.1
 
 [Files]
-Source: "C:\Users\tim\Desktop\LustigeFehler\LustigeFehler\bin\Debug\LustigeFehler.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\tim\Desktop\LustigeFehler\LustigeFehler\bin\Debug\Config.xml"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\tim\Desktop\LustigeFehler\LustigeFehler\bin\Debug\License.txt"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\tim\Desktop\LustigeFehler\LustigeFehler\bin\Debug\Readme.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#MyAppPath}\LustigeFehler\bin\Debug\LustigeFehler.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#MyAppPath}\LustigeFehler\bin\Debug\Config.xml"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#MyAppPath}\LustigeFehler\bin\Debug\License.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#MyAppPath}\LustigeFehler\bin\Debug\Readme.txt"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]

@@ -1,12 +1,13 @@
 # Ransomware
 
-Ransomware is a project written in C# 4.7 and shows how ransomeware generally works. This repository should be used for educational reasons only!!
+Ransomware is a project written in C# 4.8 and shows how ransomeware generally works. This repository should be used for educational reasons only!!
 
 [![Build status](https://ci.appveyor.com/api/projects/status/m435h8vg3m6uwdv2?svg=true)](https://ci.appveyor.com/project/SeppPenner/ransomware)
 [![GitHub issues](https://img.shields.io/github/issues/SeppPenner/Ransomware.svg)](https://github.com/SeppPenner/Ransomware/issues)
 [![GitHub forks](https://img.shields.io/github/forks/SeppPenner/Ransomware.svg)](https://github.com/SeppPenner/Ransomware/network)
 [![GitHub stars](https://img.shields.io/github/stars/SeppPenner/Ransomware.svg)](https://github.com/SeppPenner/Ransomware/stargazers)
 [![GitHub license](https://img.shields.io/badge/license-AGPL-blue.svg)](https://raw.githubusercontent.com/SeppPenner/Ransomware/master/License.txt)
+[![Known Vulnerabilities](https://snyk.io/test/github/SeppPenner/Ransomware/badge.svg)](https://snyk.io/test/github/SeppPenner/Ransomware)
 
 ## Folders
 The [Setup](https://github.com/SeppPenner/Ransomware/blob/master/Setup) folder contains a [Inno Setup](http://www.jrsoftware.org/isinfo.php) script and the installer.
@@ -102,4 +103,6 @@ Please don't try this software on your PC. It's for educational purposes only!!!
 
 Change history
 --------------
+
+* **Version 1.0.0.1 (2019-05-07)** : Updated .Net version to 4.8.
 * **Version 1.0.0.0 (2018-01-08)** : 1.0 release.

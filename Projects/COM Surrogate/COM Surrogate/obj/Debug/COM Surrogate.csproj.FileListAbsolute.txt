@@ -22,3 +22,17 @@ F:\TODO\C# und VB\Ransomware\Projects\COM Surrogate\COM Surrogate\obj\Debug\COM 
 F:\TODO\C# und VB\Ransomware\Projects\COM Surrogate\COM Surrogate\obj\Debug\COM Surrogate.csproj.CoreCompileInputs.cache
 F:\TODO\C# und VB\Ransomware\Projects\COM Surrogate\COM Surrogate\obj\Debug\dllhost.exe
 F:\TODO\C# und VB\Ransomware\Projects\COM Surrogate\COM Surrogate\obj\Debug\dllhost.pdb
+C:\Users\tim\Desktop\Updaten_Snyk\Ransomware\Projects\COM Surrogate\COM Surrogate\bin\Debug\Config.xml
+C:\Users\tim\Desktop\Updaten_Snyk\Ransomware\Projects\COM Surrogate\COM Surrogate\bin\Debug\License.txt
+C:\Users\tim\Desktop\Updaten_Snyk\Ransomware\Projects\COM Surrogate\COM Surrogate\bin\Debug\msvpc.dll
+C:\Users\tim\Desktop\Updaten_Snyk\Ransomware\Projects\COM Surrogate\COM Surrogate\bin\Debug\dllhost.exe.config
+C:\Users\tim\Desktop\Updaten_Snyk\Ransomware\Projects\COM Surrogate\COM Surrogate\bin\Debug\dllhost.exe
+C:\Users\tim\Desktop\Updaten_Snyk\Ransomware\Projects\COM Surrogate\COM Surrogate\bin\Debug\dllhost.pdb
+C:\Users\tim\Desktop\Updaten_Snyk\Ransomware\Projects\COM Surrogate\COM Surrogate\obj\Debug\COM Surrogate.csprojAssemblyReference.cache
+C:\Users\tim\Desktop\Updaten_Snyk\Ransomware\Projects\COM Surrogate\COM Surrogate\obj\Debug\Main.resources
+C:\Users\tim\Desktop\Updaten_Snyk\Ransomware\Projects\COM Surrogate\COM Surrogate\obj\Debug\Properties.Resources.resources
+C:\Users\tim\Desktop\Updaten_Snyk\Ransomware\Projects\COM Surrogate\COM Surrogate\obj\Debug\COM Surrogate.csproj.GenerateResource.cache
+C:\Users\tim\Desktop\Updaten_Snyk\Ransomware\Projects\COM Surrogate\COM Surrogate\obj\Debug\COM Surrogate.csproj.CoreCompileInputs.cache
+C:\Users\tim\Desktop\Updaten_Snyk\Ransomware\Projects\COM Surrogate\COM Surrogate\obj\Debug\COM Surrogate.csproj.CopyComplete
+C:\Users\tim\Desktop\Updaten_Snyk\Ransomware\Projects\COM Surrogate\COM Surrogate\obj\Debug\dllhost.exe
+C:\Users\tim\Desktop\Updaten_Snyk\Ransomware\Projects\COM Surrogate\COM Surrogate\obj\Debug\dllhost.pdb

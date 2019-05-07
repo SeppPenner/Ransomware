@@ -16,3 +16,14 @@ F:\TODO\C# und VB\Ransomware\Projects\DllHostTester\DllHostTester\obj\Debug\DllH
 F:\TODO\C# und VB\Ransomware\Projects\DllHostTester\DllHostTester\obj\Debug\DllHostTester.csproj.CoreCompileInputs.cache
 F:\TODO\C# und VB\Ransomware\Projects\DllHostTester\DllHostTester\obj\Debug\dllhost.exe
 F:\TODO\C# und VB\Ransomware\Projects\DllHostTester\DllHostTester\obj\Debug\dllhost.pdb
+C:\Users\tim\Desktop\Updaten_Snyk\Ransomware\Projects\DllHostTester\DllHostTester\bin\Debug\License.txt
+C:\Users\tim\Desktop\Updaten_Snyk\Ransomware\Projects\DllHostTester\DllHostTester\bin\Debug\dllhost.exe.config
+C:\Users\tim\Desktop\Updaten_Snyk\Ransomware\Projects\DllHostTester\DllHostTester\bin\Debug\dllhost.exe
+C:\Users\tim\Desktop\Updaten_Snyk\Ransomware\Projects\DllHostTester\DllHostTester\bin\Debug\dllhost.pdb
+C:\Users\tim\Desktop\Updaten_Snyk\Ransomware\Projects\DllHostTester\DllHostTester\obj\Debug\DllHostTester.csprojAssemblyReference.cache
+C:\Users\tim\Desktop\Updaten_Snyk\Ransomware\Projects\DllHostTester\DllHostTester\obj\Debug\Main.resources
+C:\Users\tim\Desktop\Updaten_Snyk\Ransomware\Projects\DllHostTester\DllHostTester\obj\Debug\Properties.Resources.resources
+C:\Users\tim\Desktop\Updaten_Snyk\Ransomware\Projects\DllHostTester\DllHostTester\obj\Debug\DllHostTester.csproj.GenerateResource.cache
+C:\Users\tim\Desktop\Updaten_Snyk\Ransomware\Projects\DllHostTester\DllHostTester\obj\Debug\DllHostTester.csproj.CoreCompileInputs.cache
+C:\Users\tim\Desktop\Updaten_Snyk\Ransomware\Projects\DllHostTester\DllHostTester\obj\Debug\dllhost.exe
+C:\Users\tim\Desktop\Updaten_Snyk\Ransomware\Projects\DllHostTester\DllHostTester\obj\Debug\dllhost.pdb
