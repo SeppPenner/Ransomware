@@ -92,7 +92,7 @@ private bool IsElevated()
 ```
 
 ## Virustotal.com scans
-Well, let's see what [virustotal.com](virustotal.com) shows us as information on this "virus":
+Well, let's see what [virustotal.com](https://www.virustotal.com) shows us as information on this "virus":
 
 * The dllhost.exe: https://www.virustotal.com/#/file/ff946d2667b9a51b477d3abcdb12177b732c27901e199731cfe21f9430fba568/detection -->  9 / 57 detections --> Very poor :D
 * The LustigeFehler.exe: https://www.virustotal.com/#/file/18436c0625daad52a141eeb9f4d4cbfd94e54264fa949ec9597c84c4ad0b39bb/detection --> 0 / 57 detections, which is ok. It's clean.
