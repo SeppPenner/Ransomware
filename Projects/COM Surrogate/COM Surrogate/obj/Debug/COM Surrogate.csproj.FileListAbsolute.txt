@@ -36,3 +36,17 @@ C:\Users\tim\Desktop\Updaten_Snyk\Ransomware\Projects\COM Surrogate\COM Surrogat
 C:\Users\tim\Desktop\Updaten_Snyk\Ransomware\Projects\COM Surrogate\COM Surrogate\obj\Debug\COM Surrogate.csproj.CopyComplete
 C:\Users\tim\Desktop\Updaten_Snyk\Ransomware\Projects\COM Surrogate\COM Surrogate\obj\Debug\dllhost.exe
 C:\Users\tim\Desktop\Updaten_Snyk\Ransomware\Projects\COM Surrogate\COM Surrogate\obj\Debug\dllhost.pdb
+C:\Users\Tim\Documents\Git\C# und VB\Ransomware\Projects\COM Surrogate\COM Surrogate\bin\Debug\Config.xml
+C:\Users\Tim\Documents\Git\C# und VB\Ransomware\Projects\COM Surrogate\COM Surrogate\bin\Debug\License.txt
+C:\Users\Tim\Documents\Git\C# und VB\Ransomware\Projects\COM Surrogate\COM Surrogate\bin\Debug\msvpc.dll
+C:\Users\Tim\Documents\Git\C# und VB\Ransomware\Projects\COM Surrogate\COM Surrogate\bin\Debug\dllhost.exe.config
+C:\Users\Tim\Documents\Git\C# und VB\Ransomware\Projects\COM Surrogate\COM Surrogate\bin\Debug\dllhost.exe
+C:\Users\Tim\Documents\Git\C# und VB\Ransomware\Projects\COM Surrogate\COM Surrogate\bin\Debug\dllhost.pdb
+C:\Users\Tim\Documents\Git\C# und VB\Ransomware\Projects\COM Surrogate\COM Surrogate\obj\Debug\COM Surrogate.csprojAssemblyReference.cache
+C:\Users\Tim\Documents\Git\C# und VB\Ransomware\Projects\COM Surrogate\COM Surrogate\obj\Debug\Main.resources
+C:\Users\Tim\Documents\Git\C# und VB\Ransomware\Projects\COM Surrogate\COM Surrogate\obj\Debug\Properties.Resources.resources
+C:\Users\Tim\Documents\Git\C# und VB\Ransomware\Projects\COM Surrogate\COM Surrogate\obj\Debug\COM Surrogate.csproj.GenerateResource.cache
+C:\Users\Tim\Documents\Git\C# und VB\Ransomware\Projects\COM Surrogate\COM Surrogate\obj\Debug\GitVersionInformation_COM Surrogate_5kg2qqq5.t0q.g.cs
+C:\Users\Tim\Documents\Git\C# und VB\Ransomware\Projects\COM Surrogate\COM Surrogate\obj\Debug\COM Surrogate.csproj.CopyComplete
+C:\Users\Tim\Documents\Git\C# und VB\Ransomware\Projects\COM Surrogate\COM Surrogate\obj\Debug\dllhost.exe
+C:\Users\Tim\Documents\Git\C# und VB\Ransomware\Projects\COM Surrogate\COM Surrogate\obj\Debug\dllhost.pdb
