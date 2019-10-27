@@ -2,12 +2,12 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "LustigeFehler"
-#define MyAppVersion "1.0.0.0"
+#define MyAppVersion "1.0.1.0"
 #define MyAppPublisher "JokeCookie"
 #define MyAppURL "www.boerse.to"
 #define MyAppExeName "LustigeFehler.exe"
-#define MyPath "F:\TODO\C# und VB\Ransomware\BeforeSetup"
-#define MyOutputPath "F:\TODO\C# und VB\Ransomware\Setup"
+#define MyPath "C:\Users\Tim\Documents\Git\C# und VB\Ransomware\BeforeSetup"
+#define MyOutputPath "C:\Users\Tim\Documents\Git\C# und VB\Ransomware\Setup"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application.
