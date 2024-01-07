@@ -22,9 +22,7 @@ The software is basically a "malware" version of https://github.com/SeppPenner/L
 ## Virustotal.com scans
 Well, let's see what [virustotal.com](https://www.virustotal.com) shows us as information on this "virus":
 
-* The dllhost.exe: https://www.virustotal.com/#/file/ff946d2667b9a51b477d3abcdb12177b732c27901e199731cfe21f9430fba568/detection -->  9 / 57 detections --> Very poor :D
-* The LustigeFehler.exe: https://www.virustotal.com/#/file/18436c0625daad52a141eeb9f4d4cbfd94e54264fa949ec9597c84c4ad0b39bb/detection --> 0 / 57 detections, which is ok. It's clean.
-* The LustigeFehler-Setup.exe: https://www.virustotal.com/#/file/31f5447fa6c498ab526f1686cb77778f41223d6783ccba4298f9580ce8dfa055/detection --> 11 / 58 detections --> Very poor :D
+* The result: https://www.virustotal.com/gui/file/d2a0638ffd29888de39fd138f81e667888b7c9f04649032a042bd558dec4bf98?nocache=1 --> 1 / 69 detections --> Very poor :D
 
 ## Hint
 Please don't try this software on your PC. It's for educational purposes only!!!!!!
