@@ -5,6 +5,12 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ransomware", "Ransomware\Ransomware.csproj", "{61910193-BE81-48DD-9223-7E6EA03C0EEC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projektmappenelemente", "Projektmappenelemente", "{6A71D636-1C02-4D92-A4AD-4E0B1CDB935A}"
+	ProjectSection(SolutionItems) = preProject
+		..\License.txt = ..\License.txt
+		..\Readme.md = ..\Readme.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
